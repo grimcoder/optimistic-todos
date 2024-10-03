@@ -1,0 +1,29 @@
+#root {
+  max-width: 500px;
+
+  width: 100%;
+  padding: 2rem;
+}
+
+input {
+  width: 100%;
+  font-size: 24px;
+  font-weight: inherit;
+  line-height: 1.4em;
+}
+
+.todos{
+  display: flex;
+  vertical-align: middle;
+}
+
+.actions{
+  display: flex;
+  justify-items: stretch;
+}
+
+.requirements ol {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
